@@ -1,0 +1,33 @@
+# Ignore the virtual environment directory
+digi/
+
+# Ignore log files
+logs/
+*.log
+
+# Ignore test cache and coverage reports
+tests/
+.coverage
+htmlcov/
+.nox/
+.pytest_cache/
+
+# Ignore compiled Python files and cache
+__pycache__/
+*.py[cod]
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore environment variables and secrets
+# .env
+# .env.local
+# .env.production
+# .env.development

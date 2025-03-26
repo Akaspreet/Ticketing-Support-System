@@ -1,0 +1,38 @@
+version: '3'
+
+services:
+  langserve:
+    image: langchain/langserve:latest
+    ports:
+      - "8000:8000"
+    environment:
+      - LANGCHAIN_API_KEY=any-key-will-work-locally
+      - LANGCHAIN_TRACING_V2=true
+      - LANGCHAIN_ENDPOINT=http://langchain-backend:8000
+    depends_on:
+      - langchain-backend
+    volumes:
+      - ./chains:/app/chains
+
+  langchain-backend:
+    image: langchain/langchain-plus:latest
+    ports:
+      - "3000:3000"  # Frontend
+      - "4000:4000"  # Backend API
+    environment:
+      - LANGCHAIN_ENV=local_docker
+      - DATABASE_URL=postgresql://postgres:postgres@postgres:5432/langchain
+    depends_on:
+      - postgres
+
+  postgres:
+    image: postgres:14
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=langchain
+    volumes:
+      - langchain_postgres_data:/var/lib/postgresql/data
+
+volumes:
+  langchain_postgres_data:
