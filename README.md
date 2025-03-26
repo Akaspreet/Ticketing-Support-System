@@ -296,3 +296,27 @@ The application depends on several external services and libraries, including:
 - **LangChain**: For integrating with language models.
 - **OpenAI**: For generating text and embeddings.
 - **Langfuse and LangSmith**: For monitoring and tracing.
+
+## Visualizations
+
+![Screenshot from 2025-03-24 15-32-02](https://github.com/user-attachments/assets/7e170d80-a564-4ed0-ae18-143a25a77cf5)
+![Screenshot from 2025-03-24 15-29-53](https://github.com/user-attachments/assets/6a52103c-d768-4cca-8590-6f086949c23e)
+![Screenshot from 2025-03-24 15-29-34](https://github.com/user-attachments/assets/3a35cd9a-30a2-4777-a9ec-1a92d89f61de)
+![Screenshot from 2025-03-24 15-29-18](https://github.com/user-attachments/assets/ecc8af8d-664f-42a9-8aa2-aef4dc608a3e)
+![Screenshot from 2025-03-24 15-28-56](https://github.com/user-attachments/assets/272a1520-e43a-4620-aae7-28c872de68e3)
+![Screenshot from 2025-03-24 15-37-29](https://github.com/user-attachments/assets/af5662f2-fda6-4f32-a211-3a19c7ec3154)
+![Screenshot from 2025-03-24 15-37-17](https://github.com/user-attachments/assets/9cc8fdab-124d-493d-a630-1c2e6c8c4a79)
+![Screenshot from 2025-03-24 15-36-54](https://github.com/user-attachments/assets/c2546a90-939b-495e-a860-f4fe6de08233)
+![Screenshot from 2025-03-24 15-36-27](https://github.com/user-attachments/assets/da624339-2e78-4380-91e6-33faf1462507)
+![Screenshot from 2025-03-24 15-36-09](https://github.com/user-attachments/assets/09f6d350-aac0-43ed-b486-7f98da084252)
+![Screenshot from 2025-03-24 15-35-13](https://github.com/user-attachments/assets/7e529229-0667-4f39-997b-b1d84b6a4782)
+![Screenshot from 2025-03-24 15-35-00](https://github.com/user-attachments/assets/a1cc21e8-db98-4ff1-bfd8-3604d1d45e84)
+![Screenshot from 2025-03-24 15-34-49](https://github.com/user-attachments/assets/1073fdd1-b229-4025-b504-b1285e7f320d)
+![Screenshot from 2025-03-24 15-34-33](https://github.com/user-attachments/assets/5058e711-86b5-4132-a973-c9fc258d140a)
+![Screenshot from 2025-03-24 15-34-21](https://github.com/user-attachments/assets/d901a3a9-6b82-4ab5-822c-d2c78e9546f2)
+![Screenshot from 2025-03-24 15-34-11](https://github.com/user-attachments/assets/72ccdb2b-5823-4f21-a309-f1984aedc3a3)
+![Screenshot from 2025-03-24 15-34-01](https://github.com/user-attachments/assets/495da714-f618-48ce-a4d2-304201f67607)
+![Screenshot from 2025-03-24 15-33-49](https://github.com/user-attachments/assets/1f8f8f0f-3d45-4335-be50-4d6d9b0e0058)
+![Screenshot from 2025-03-24 15-33-01](https://github.com/user-attachments/assets/c058d1b3-8c4b-418a-a2c0-545642a4a93e)
+![Screenshot from 2025-03-24 15-32-46](https://github.com/user-attachments/assets/9063928a-e4ef-4900-9a90-95a3206d448d)
+
